@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+  background-image: "3053366.png";
+  
+}
+
+body
+{
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  background-image: url("bgi.jpg");
+  background-repeat: repeat-x;
+  background-size: cover;
+  opacity: 91%;
+}
+
+.form-box
+{
+  height: auto;
+  max-width: 480px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 50px;  
+  margin-top: 100px;
+  justify-content: space-between;
+  padding-top: 20px;
+  background-color: #2c2f33;
+  position: relative;
+  box-shadow:0 0 10px #000;
+  
+}
+
+.content h1
+{
+  color: #ffffff;
+}
+
+.content h2 
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.content h2 username, password
+{
+  color: #ffffff;
+}
+
+.content input
+{
+  width: 250px;
+  height: 22px;
+  border-radius: 3px; 
+}
+
+.content h3
+{
+  margin: 0 50px 0 50px;  
+  display: inline;
+  color: #ccc;
+  text-shadow: 3.5px 1.5px 3px #000;
+}
