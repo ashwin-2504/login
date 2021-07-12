@@ -1,7 +1,6 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: 'poppins', sans-serif;
   background-image: "3053366.png";
   
 }
@@ -35,17 +34,22 @@ body
 
 .content h1
 {
-  color: #ffffff;
+  font-family: 'papyrus', fantasy;
+  color: #99aab5;
+
 }
 
 .content h2 
 {
-  padding-top: 10px;
+  font-family: 'times new roman', serif;
+  padding-top: 20px;
   padding-bottom: 10px;
+  color: #ffffff;
 }
 
 .content h2 username, password
 {
+  
   color: #ffffff;
 }
 
@@ -58,8 +62,39 @@ body
 
 .content h3
 {
+  
   margin: 0 50px 0 50px;  
   display: inline;
   color: #ccc;
   text-shadow: 3.5px 1.5px 3px #000;
+}
+
+.content input
+{
+  height: 25px;
+  color: #000000;
+  font-size: 12px;
+  border: 0;
+  border-bottom: none; /* Prevent double borders */
+  text-align: center;
+}
+
+.login
+{
+  padding-top: 35px;  
+}
+
+.button
+{
+  width: 100px;
+  height: 30px;
+  transition: .4s;  
+  border: none;
+  opacity: none;
+  border-radius: 12px;
+}
+
+.button:hover
+{
+  background-color: #7289da;
 }
