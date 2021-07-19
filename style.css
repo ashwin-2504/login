@@ -82,7 +82,10 @@ body
   width:100px;
   background-color:#2c2f33;
   border:none;
-  transition:ease-in .5s;
+  border-radius: 3px;
+  transition:ease-in .3s;
+  color: #ffffff;
+  outline: none;
 }
 
 
