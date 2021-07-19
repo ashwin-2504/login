@@ -108,8 +108,8 @@ body
   color: skyblue
 }
 
-.sign-up a
+.sign-up
 {
   color:#ffffff;
-  text-decoration:underline;
+  padding-top:5px;
 }
