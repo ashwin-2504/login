@@ -20,17 +20,16 @@ body
 
 .form_box
 {
+  position: absolute;  
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   height: 370px;
   width: 360px;
-  margin: auto;
   text-align: center;
-  padding-bottom: 50px;  
-  margin-top: 100px;
-  justify-content: space-between;
-  align-items: center;
+  padding-bottom: 50px;
   padding-top: 20px;
   background-color: #2c2f33;
-  position: relative;
   box-shadow:0 0 13px #000;
 }
 
